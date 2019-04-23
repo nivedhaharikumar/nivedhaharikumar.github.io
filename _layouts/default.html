@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html amp lang="en-IN">
+    <head>
+        <meta charset="utf-8">
+        <!-- AMP Initialization Settings -->
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+        <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>     
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <link rel="canonical" href="{{site.domainUrl}}{{site.baseurl}}{{page.url}}">
+        <!-- Site Info -->
+        <title>{% if page.title %}{{page.title}} - {% endif %}GiftTarget</title>        
+        <!-- <link href="{{site.baseUrl}}/css/main.css" rel="stylesheet"> -->
+        <style amp-custom>                                 
+            {% include css/default.css %}
+            {% include css/siteNav.css %}
+            {% include css/copyContent.css %}
+            {% include css/posts.css %}
+            {% include css/pages.css %}
+            {% include css/bio.css %}
+            {% include css/testimonials.css %}
+            {% include css/my-projects.css %}
+            {% include css/icons.css %}
+            /* Error 404 Page CSS */
+            {% include css/error-404.css %}
+            {% include css/footer.css %}
+            /* Site Layout and Responsiveness */
+            {% include css/responsive.css %}
+            /* AMP Stories CSS */
+            {% include css/amp-stories.css %}
+        </style>
+        {% if page.meta %}<meta name="description" content="{{page.meta}}">{% endif %}        
+        <!-- Apache Cordova Whitelist Good default declaration:
+            * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+            * Enable inline JS: add 'unsafe-inline' to default-src
+            * Enable eval(): add 'unsafe-eval' to default-src
+        -->
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; media-src 'self'"> -->
+    </head>
+    <body>
+
+        {% include siteNav.html %}
+
+        {{content}}
+
+        {% include footer.html %}        
+    </body>
+</html>

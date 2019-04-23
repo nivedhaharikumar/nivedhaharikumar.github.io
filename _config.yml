@@ -1,1 +1,10 @@
 theme: jekyll-theme-minimal
+
+# markdown: kramdown
+domainUrl: "https://nivedhaharikumar.github.io"
+baseUrl: ""
+exclude: ['README.md']
+permalink: pretty
+
+#Hosting settings
+port: 80
