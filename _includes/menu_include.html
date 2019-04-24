@@ -1,11 +1,11 @@
 <div>
-    <img src="user" alt="User Profile Image" />
+    <img src="{{site.domainUrl}}{{site.baseUrl}}/img/user.png" alt="User Profile Image" />    
     <span>Name</span>
     {% for menu-item in site.data.menu-items-list %}
 
     <a href="{{ menu-item.link }}" id="{{ menu-item.img }}">
         <div>
-            <img src="{{site.domainUrl}}{{site.baseUrl}}/img/{{ menu-item.img }}" alt="{{ menu-item.description }}" />
+            <img src="{{site.domainUrl}}{{site.baseUrl}}/img/{{ menu-item.img }}" alt="{{ menu-item.description }}" />            
             <span>{{ menu-item.description }}</span>
         </div>
     </a>
