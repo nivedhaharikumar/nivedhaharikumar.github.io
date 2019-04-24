@@ -1,0 +1,24 @@
+form {
+    max-width: 50%;
+}
+
+.form-width {
+    width: 50%;
+}
+
+.form-border {
+    border: 1px solid grey;
+}
+
+form label, form input, form button {
+    margin: 1rem;
+}
+
+form:last-child {
+    margin-bottom: 10rem;    
+}
+
+form div:last-of-type {
+    padding: 1rem 10% 1rem 10%;
+    margin: 1rem 1rem;
+}

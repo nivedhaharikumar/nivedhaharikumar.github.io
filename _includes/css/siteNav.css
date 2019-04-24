@@ -1,0 +1,22 @@
+.active {
+    color: #000;     
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    /* margin-right: 0.5rem; */
+    margin: 0.25rem;
+    border-radius: 0.15rem;
+    padding: 0.5rem 1.75rem;    
+}
+
+nav ul {
+    margin-right: 0.5rem;
+    padding: 0.25rem;
+}

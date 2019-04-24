@@ -1,16 +1,14 @@
-<div>
-
-    {% include gifttargetlogo_include.html %}
-
-    <form>
-        <label>Email</label>
-        <input type="email" />
-        <label>Password</label>
-        <input type="password" />
-        <button type="button">Sign in</button>
-        <div>
-            <span>Forgot Password?</span>
-            <span>Sign Up</span>
+<div class="center-align">
+    <form class="form-border">
+        {% include gifttargetlogo_include.html %}
+        <label>Email</label><br />
+        <input type="email" class="form-width" /><br />
+        <label>Password</label><br />
+        <input type="password" class="form-width" /><br />
+        <button type="button" class="button">Sign in</button>
+        <div class="block">
+            <span class="float-left">Forgot Password?</span>
+            <span class="float-right">Sign Up</span>
         </div>
     </form>
 

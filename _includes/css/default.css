@@ -10,7 +10,7 @@ html, input {
 
 a {
     text-decoration: none;
-    color: #13F;
+    color: #000;
 }
 
 .page-header {
@@ -63,3 +63,23 @@ a {
 /* .carousel-item {
     padding: 10rem;
 } */
+
+.center-align {
+    text-align: center;
+}
+
+.left-align {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.block {
+    display: block;
+}
