@@ -1,0 +1,14 @@
+[
+    {
+        "id": "equipment1",
+        "title": "Equipment 1",
+        "description": "Equipment 1 Description",
+        "vendor": "Equipment 1 Vendor"
+    },
+    {
+        "id": "equipment2",
+        "title": "Equipment 2",
+        "description": "Equipment 2 Description",
+        "vendor": "Equipment 2 Vendor"
+    }
+]

@@ -1,0 +1,15 @@
+<div>
+    <img src="user" alt="User Profile Image" />
+    <span>Name</span>
+    {% for menu-item in site.data.menu-items-list %}
+
+    <a href="{{ menu-item.link }}" id="{{ menu-item.img }}"><div>
+        <span>{{ menu-item.img }}</span>
+        <span>{{ menu-item.description }}</span>
+    </div>
+</a>
+    <a href="{{ link.link }}" data-vars-outbound-link="{{ link.link }}" class="icon-{{ link.title }} social-link-icon"
+        id="{{ link.selector }}"></a>
+
+    {% endfor %}
+</div>

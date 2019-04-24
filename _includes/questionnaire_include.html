@@ -1,0 +1,34 @@
+<div>
+    {% include gifttargetlogo_include.html %}
+
+    <h3>Questionnaire</h3>
+
+    <form>
+        <label>Select an equipment</label>
+        <select>
+            {% for equipment-item in site.data.fundraiser-equipment.json %}
+
+            <option value="{{ equipment-item.id }}">{{equipment-item.title}}</option>
+
+            {% endfor %}
+        </select>
+        <label>Select the length of fundraiser</label>
+        <select>
+            {% for fundraiser-length-item in site.data.fundraiser-frequency.json %}
+
+            <option value="{{ fundraiser-length-item.option }}">{{fundraiser-length-item.option}}</option>
+
+            {% endfor %}
+        </select>
+        <label>Select frequency of notifications</label>
+        <select>
+            {% for fundraiser-notification-item in site.data.fundraiser-length.json %}
+
+            <option value="{{ fundraiser-notification-item.option }}">{{fundraiser-notification-item.option}}</option>
+
+            {% endfor %}
+        </select>
+        <button type="button">Create Fundraiser</button>
+    </form>
+
+</div>

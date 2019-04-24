@@ -1,0 +1,46 @@
+[
+    {
+        "id": "settings_cog",
+        "img": "settings_cog.png",
+        "link": "settings_cog",
+        "description": "Account Information"
+    },
+    {
+        "id": "contributions",
+        "img": "contributions.png",
+        "link": "contributions",
+        "description": "My Contributions" 
+
+    },
+    {
+        "id": "goals",
+        "img": "goals.png",
+        "link": "goals",
+        "description": "Goals"
+    },
+    {
+        "id": "leadership_board",
+        "img": "leadership_board.png",
+        "link": "leadership_board",
+        "description": "Leadership Board"
+    },
+    {
+        "id": "badges",
+        "img": "badges.png",
+        "link": "badges",
+        "description": "Badges" 
+
+    },
+    {
+        "id": "tax_benefits",
+        "img": "tax_benefits.png",
+        "link": "tax_benefits",
+        "description": "Tax Benefits"
+    },
+    {
+        "id": "logout",
+        "img": "logout.png",
+        "link": "logout",
+        "description": "Logout"
+    }
+]
