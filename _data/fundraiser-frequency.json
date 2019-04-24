@@ -1,11 +1,11 @@
 [
     {
-        "option": "daily"
+        "option": "Daily"
     },
     {
-        "option": "weekly"
+        "option": "Weekly"
     },
     {
-        "option": "monthly"
+        "option": "Monthly"
     }
 ]
