@@ -1,6 +1,6 @@
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 
-# markdown: kramdown
+markdown: kramdown
 domainUrl: "https://nivedhaharikumar.github.io"
 baseUrl: ""
 exclude: ['README.md']
