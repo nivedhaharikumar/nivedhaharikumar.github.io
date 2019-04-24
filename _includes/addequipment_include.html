@@ -6,7 +6,7 @@
     <form>
         <label>Select an equipment</label>
         <select>
-            {% for equipment-item in site.data.fundraiser-equipment.json %}
+            {% for equipment-item in site.data.fundraiser-equipment %}
 
             <option value="{{ equipment-item.id }}">{{equipment-item.title}}</option>
 
@@ -14,7 +14,7 @@
         </select>
         <label>Select equipment brand</label>
         <select>
-            {% for equipment-item in site.data.fundraiser-equipment.json %}
+            {% for equipment-item in site.data.fundraiser-equipment %}
 
             <option value="{{ equipment-item.vendor }}">{{equipment-item.vendor}}</option>
 

@@ -6,7 +6,7 @@
     <form>
         <label>Select an equipment</label>
         <select>
-            {% for equipment-item in site.data.fundraiser-equipment.json %}
+            {% for equipment-item in site.data.fundraiser-equipment %}
 
             <option value="{{ equipment-item.id }}">{{equipment-item.title}}</option>
 
@@ -14,7 +14,7 @@
         </select>
         <label>Select the length of fundraiser</label>
         <select>
-            {% for fundraiser-length-item in site.data.fundraiser-frequency.json %}
+            {% for fundraiser-length-item in site.data.fundraiser-frequency %}
 
             <option value="{{ fundraiser-length-item.option }}">{{fundraiser-length-item.option}}</option>
 
@@ -22,7 +22,7 @@
         </select>
         <label>Select frequency of notifications</label>
         <select>
-            {% for fundraiser-notification-item in site.data.fundraiser-length.json %}
+            {% for fundraiser-notification-item in site.data.fundraiser-length %}
 
             <option value="{{ fundraiser-notification-item.option }}">{{fundraiser-notification-item.option}}</option>
 
