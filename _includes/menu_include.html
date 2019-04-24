@@ -5,7 +5,7 @@
 
     <a href="{{ menu-item.link }}" id="{{ menu-item.img }}">
         <div>
-            <span>{{ menu-item.img }}</span>
+            <img src="{{site.domainUrl}}{{site.baseUrl}}/img/{{ menu-item.img }}" alt="{{ menu-item.description }}" />
             <span>{{ menu-item.description }}</span>
         </div>
     </a>

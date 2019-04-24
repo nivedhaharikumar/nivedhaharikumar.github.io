@@ -1,45 +1,45 @@
 [
     {
-        "id": "settings_cog",
-        "img": "settings_cog.png",
-        "link": "settings_cog",
+        "id": "settings",
+        "img": "settings.svg",
+        "link": "settings",
         "description": "Account Information"
     },
     {
         "id": "contributions",
-        "img": "contributions.png",
+        "img": "contributions.svg",
         "link": "contributions",
         "description": "My Contributions" 
 
     },
     {
         "id": "goals",
-        "img": "goals.png",
+        "img": "goals.svg",
         "link": "goals",
         "description": "Goals"
     },
     {
         "id": "leadership_board",
-        "img": "leadership_board.png",
+        "img": "leadership_board.svg",
         "link": "leadership_board",
         "description": "Leadership Board"
     },
     {
         "id": "badges",
-        "img": "badges.png",
+        "img": "badges.svg",
         "link": "badges",
         "description": "Badges" 
 
     },
     {
         "id": "tax_benefits",
-        "img": "tax_benefits.png",
+        "img": "tax_benefits.svg",
         "link": "tax_benefits",
         "description": "Tax Benefits"
     },
     {
         "id": "logout",
-        "img": "logout.png",
+        "img": "logout.svg",
         "link": "logout",
         "description": "Logout"
     }
